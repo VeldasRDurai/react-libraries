@@ -1,17 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
+import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 
-const Div = styled.div`
-  display:flex;
-  justify-content:center;
-  align-items:center;
-`;
+import MainPage from './components/Mainpage/MainPage';
+import ReactIcons from './components/ReactIcons/ReactIcons';
 
 const App = () => {
   return (
-    <Div>
-      This is practicals
-    </Div>
+    <Router>
+      <Switch>
+
+        <Route path='/' exact > <MainPage /> </Route>
+        <Route path='/react-icons'> <ReactIcons /> </Route>
+
+      </Switch>
+    </Router>
   );
 }
 
