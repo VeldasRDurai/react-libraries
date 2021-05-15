@@ -14,6 +14,7 @@ const MainPage = () => {
             <div> Practicals </div>
             <div> <Link to="/react-icons"> React Icons </Link> </div>
             <div> <Link to="/react-toastify"> React Toastify </Link> </div>
+            <div> <Link to="/react-modal"> React Modal </Link> </div>
         </Div>
     )
 }

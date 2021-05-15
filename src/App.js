@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 import MainPage from './components/Mainpage/MainPage';
 import ReactIcons from './components/ReactIcons/ReactIcons';
 import ReactToastify from './components/ReactToastify/ReactToastify';
+import ReactModal from './components/ReactModal/ReactModal';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
 
         <Route path='/react-icons'> <ReactIcons /> </Route>
         <Route path='/react-toastify'> <ReactToastify /> </Route>
+        <Route path='/react-modal' exact > <ReactModal /> </Route>
         <Route path='/' exact > <MainPage /> </Route>
 
       </Switch>
