@@ -13,6 +13,7 @@ const MainPage = () => {
         <Div>
             <div> Practicals </div>
             <div> <Link to="/react-icons"> React Icons </Link> </div>
+            <div> <Link to="/react-toastify"> React Toastify </Link> </div>
         </Div>
     )
 }
