@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useHistory } from 'react-router-dom';
 import CountUp, { useCountUp } from 'react-countup';
    
 const Div = styled.div`
@@ -10,6 +11,7 @@ const Div = styled.div`
 `;
 
 const ReactCountUp = () => {
+  const history = useHistory();
   const { countUp, start, pauseResume, reset, update } = useCountUp({
     duration: 5,
     end: 100,
@@ -17,6 +19,7 @@ const ReactCountUp = () => {
   })
   return (
     <Div>
+        <div onClick={ () => history.push('/') } > Back </div>
         <h1>{countUp}</h1>
         <div>
             <button onClick={start}>Start</button>

@@ -7,6 +7,7 @@ import ReactToastify from './components/ReactToastify/ReactToastify';
 import ReactModal from './components/ReactModal/ReactModal';
 import ReactToolTip from './components/ReactToolTip/ReactToolTip';
 import ReactCountUp from './components/ReactCountUp/ReactCountUp';
+import ReactIdleTimer from './components/ReactIdelTimer/ReactIdelTimer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/react-modal' > <ReactModal /> </Route>
         <Route path='/react-tool-tip' > <ReactToolTip /> </Route>
         <Route path='/react-count-up' > <ReactCountUp /> </Route>
+        <Route path='/react-idle-timer' > <ReactIdleTimer /> </Route>
         <Route path='/' exact > <MainPage /> </Route>
 
       </Switch>

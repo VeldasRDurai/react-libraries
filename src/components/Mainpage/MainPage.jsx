@@ -17,6 +17,7 @@ const MainPage = () => {
             <div> <Link to="/react-modal"> React Modal </Link> </div>
             <div> <Link to="/react-tool-tip"> React Tool Tit </Link> </div>
             <div> <Link to="/react-count-up"> React Count Up </Link> </div>
+            <div> <Link to="/react-idle-timer"> React idle timer </Link> </div>
         </Div>
     )
 }
