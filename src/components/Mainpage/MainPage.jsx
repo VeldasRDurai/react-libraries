@@ -20,6 +20,7 @@ const MainPage = () => {
             <div> <Link to="/react-idle-timer"> React idle timer </Link> </div>
             <div> <Link to="/react-color-picker"> React Color Picker </Link> </div>
             <div> <Link to="/"> React Credit Card </Link> </div>
+            <div> <Link to="/react-date-picker"> React Date Picker </Link> </div>
         </Div>
     )
 }
