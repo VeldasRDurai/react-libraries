@@ -9,6 +9,7 @@ import ReactToolTip from './components/ReactToolTip/ReactToolTip';
 import ReactCountUp from './components/ReactCountUp/ReactCountUp';
 import ReactIdleTimer from './components/ReactIdelTimer/ReactIdelTimer';
 import ReactColorPicker from './components/ReactColorPicker/ReactColorPicker';
+// import ReactCreditCard from './components/ReactCreditCard/ReactCreditCard';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/react-count-up' > <ReactCountUp /> </Route>
         <Route path='/react-idle-timer' > <ReactIdleTimer /> </Route>
         <Route path='/react-color-picker' > <ReactColorPicker /> </Route>
+        {/* <Route path='/react-credit-card' > <ReactCreditCard /> </Route> */}
         <Route path='/' exact > <MainPage /> </Route>
 
       </Switch>
