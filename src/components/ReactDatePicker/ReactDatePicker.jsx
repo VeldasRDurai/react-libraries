@@ -13,7 +13,7 @@ const Div = styled.div`
 `;
 const ReactDatePicker = () => {
     const history = useHistory();
-    const [selectedDate, setSelectedDate] = useState(null)
+    const [selectedDate, setSelectedDate] = useState(null);
     return (
         <Div>
             <div onClick={ () => history.push('/') } > Back </div>    
