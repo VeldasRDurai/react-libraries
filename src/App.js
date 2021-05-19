@@ -11,6 +11,7 @@ import ReactIdleTimer from './components/ReactIdelTimer/ReactIdelTimer';
 import ReactColorPicker from './components/ReactColorPicker/ReactColorPicker';
 // import ReactCreditCard from './components/ReactCreditCard/ReactCreditCard';
 import ReactDatePicker from './components/ReactDatePicker/ReactDatePicker';
+import ReactVideoPlayer from './components/ReactVideoPlayer/ReactVideoPlayer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/react-color-picker' > <ReactColorPicker /> </Route>
         {/* <Route path='/react-credit-card' > <ReactCreditCard /> </Route> */}
         <Route path='/react-date-picker' > <ReactDatePicker /> </Route>
+        <Route path='/react-video-player'> <ReactVideoPlayer /> </Route> 
         <Route path='/' exact > <MainPage /> </Route>
 
       </Switch>
